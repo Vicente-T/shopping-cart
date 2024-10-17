@@ -11,10 +11,9 @@ function App() {
   
 
   return (
-		<div className='App'>
-		  <ShopContextProvider>
-			  
-				<Router >
+		<div className='w-full h-auto min-h-screen font-sans bg-pink-100 p-o m-o'>
+			<ShopContextProvider>
+				<Router>
 					<Navbar />
 					<Routes>
 						<Route path='/' element={<Shop />} />
